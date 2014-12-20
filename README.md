@@ -6,7 +6,8 @@ This repo contains the files for the project that went with the November 2014 ve
 Files in this repo are:
 
 - README.md  (this file)
-- tidy.csv (the produced tidy dataset)
+- tidy.txt (the produced tidy dataset as txt file)
+- tidy.csv (the produced tidy dataset as csv file)
 - run_analysis.R (the used R script)
 - CodeBook.md (a code book for tidy.csv)
 
