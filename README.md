@@ -13,7 +13,7 @@ Files in this repo are:
 
 The CodeBook.md also indicates the data transformations that were used.
 
-## indication how run_analysis.R works
+## notes by run_analysis.R works
 
 The script performs the following steps:
 
@@ -30,7 +30,7 @@ The script performs the following steps:
 - construct and store appropriate column names for these 66.
 - save the result as tidy.csv   
 
-## notes
+## general notes
 
 I'm very familiar with SQL, so I used the R package sqldf to do all of the grouping. The same thing can be done with dplyr.
 
