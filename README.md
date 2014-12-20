@@ -13,7 +13,7 @@ Files in this repo are:
 
 The CodeBook.md also indicates the data transformations that were used.
 
-## notes by run_analysis.R works
+## on run_analysis.R works
 
 The script performs the following steps:
 
@@ -21,16 +21,16 @@ The script performs the following steps:
 - the names of the 500+ variables are read from the file "./UCI HAR Dataset/features.txt."
 - using SQL the 66 variables names containing the string "mean()" or "std()" are selected and stored in the table vars (i.e. used vars.)
 - the names of the activities are read from the file ".//UCI HAR Dataset//activity_labels.txt" and stored in the table act_name   
-- make a data frame containing all train data (see script for the dirty details)
-- make a data frame containing all test data (see script for the dirty details)
+- make a data frame containing all train data (see script for the details)
+- make a data frame containing all test data (see script for the details)
 - PS in the previous two steps activity numbers were replaced by activity names
 - merge (i.e. row bind) the train and test data frames.
 - Use SQL to group by subject and activity, 
-- let SQL calculate each of the 66 group averages in a loop
+- let SQL calculate each of the 66 group averages in a loop (see script for details)
 - construct and store appropriate column names for these 66.
 - save the result as tidy.csv   
 
-## general notes
+## notes
 
 I'm very familiar with SQL, so I used the R package sqldf to do all of the grouping. The same thing can be done with dplyr.
 
