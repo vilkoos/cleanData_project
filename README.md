@@ -10,6 +10,8 @@ Files in this repo are:
 - run_analysis.R (the used R script)
 - CodeBook.md (a code book for tidy.csv)
 
+The CodeBook.md also indicates the data transformations that were used.
+
 ## notes
 
 I'm very familiar with SQL, so I used the R package sqldf to do all of the grouping. The same thing can be done with dplyr.
