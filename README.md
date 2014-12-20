@@ -13,7 +13,7 @@ Files in this repo are:
 
 The CodeBook.md also indicates the data transformations that were used.
 
-## on run_analysis.R works
+## add run_analysis.R
 
 The script performs the following steps:
 
